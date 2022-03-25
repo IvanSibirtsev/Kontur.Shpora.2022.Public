@@ -8,7 +8,7 @@ using NUnit.Framework;
 namespace ReaderWriterLock
 {
 	//public class LockTests : RwLockTests<LockWrapper> {}
-	public class ReaderWriterLockSlimTests : RwLockTests<ReaderWriterLockWrapper> {}
+	public class ReaderWriterLockSlimTests : RwLockTests<RwLock> {}
 
 	//public class RwLockTests : RwLockTests<RwLock> {}
 
